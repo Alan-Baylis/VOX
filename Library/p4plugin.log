@@ -1,0 +1,7 @@
+Got config end = ''
+e32:TCP connect to perforce:1666 failed.\nNo such host is known. \n
+StatusCommand::Run()
+fstat  "D:/Jogos/Meus Jogos/VOX/ProjectSettings/AudioManager.asset" "D:/Jogos/Meus Jogos/VOX/ProjectSettings/ClusterInputManager.asset" "D:/Jogos/Meus Jogos/VOX/ProjectSettings/DynamicsManager.asset" "D:/Jogos/Meus Jogos/VOX/ProjectSettings/EditorBuildSettings.asset" "D:/Jogos/Meus Jogos/VOX/ProjectSettings/EditorSettings.asset" "D:/Jogos/Meus Jogos/VOX/ProjectSettings/GraphicsSettings.asset" "D:/Jogos/Meus Jogos/VOX/ProjectSettings/InputManager.asset" "D:/Jogos/Meus Jogos/VOX/ProjectSettings/NavMeshAreas.asset" "D:/Jogos/Meus Jogos/VOX/ProjectSettings/NetworkManager.asset" "D:/Jogos/Meus Jogos/VOX/ProjectSettings/Physics2DSettings.asset" "D:/Jogos/Meus Jogos/VOX/ProjectSettings/ProjectSettings.asset" "D:/Jogos/Meus Jogos/VOX/ProjectSettings/ProjectVersion.txt" "D:/Jogos/Meus Jogos/VOX/ProjectSettings/QualitySettings.asset" "D:/Jogos/Meus Jogos/VOX/ProjectSettings/TagManager.asset" "D:/Jogos/Meus Jogos/VOX/ProjectSettings/TimeManager.asset" "D:/Jogos/Meus Jogos/VOX/ProjectSettings/UnityAdsSettings.asset" "D:/Jogos/Meus Jogos/VOX/ProjectSettings/UnityConnectSettings.asset" 
+e32:TCP connect to perforce:1666 failed.\nNo such host is known. \n
+Unhandled exception: Readfile from pipe failed. GLE=The pipe has been ended.
+

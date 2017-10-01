@@ -1,0 +1,103 @@
+Initialize engine version: 5.3.5f1 (960ebf59018a)
+GfxDevice: creating device client; threaded=1
+d3d11: failed to create D3D11 device (0x887a0004)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 9.0c [igdumd32.dll 8.14.10.2697]
+    Renderer: Intel(R) G33/G31 Express Chipset Family (Microsoft Corporation - WDDM 1.0)
+    Vendor:   Intel
+    VRAM:     64 MB (via DXGI)
+    Caps:     Shader=20 DepthRT=0 NativeDepth=0 NativeShadow=0 DF16=0 INTZ=0 NULL=0 RESZ=0 SlowINTZ=0
+Begin MonoManager ReloadAssembly
+Platform assembly: D:\Jogos\Meus Jogos\VOX\Builds\DevBuild-4.5\VOX_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\Jogos\Meus Jogos\VOX\Builds\DevBuild-4.5\VOX_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\Jogos\Meus Jogos\VOX\Builds\DevBuild-4.5\VOX_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading D:\Jogos\Meus Jogos\VOX\Builds\DevBuild-4.5\VOX_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: D:\Jogos\Meus Jogos\VOX\Builds\DevBuild-4.5\VOX_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\Jogos\Meus Jogos\VOX\Builds\DevBuild-4.5\VOX_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\Jogos\Meus Jogos\VOX\Builds\DevBuild-4.5\VOX_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\Jogos\Meus Jogos\VOX\Builds\DevBuild-4.5\VOX_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\Jogos\Meus Jogos\VOX\Builds\DevBuild-4.5\VOX_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\Jogos\Meus Jogos\VOX\Builds\DevBuild-4.5\VOX_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: D:\Jogos\Meus Jogos\VOX\Builds\DevBuild-4.5\VOX_Data\Managed\Photon3Unity3D.dll (this message is harmless)
+Loading D:\Jogos\Meus Jogos\VOX\Builds\DevBuild-4.5\VOX_Data\Managed\Photon3Unity3D.dll into Unity Child Domain
+Platform assembly: D:\Jogos\Meus Jogos\VOX\Builds\DevBuild-4.5\VOX_Data\Managed\ProBuilderCore-Unity5.dll (this message is harmless)
+Loading D:\Jogos\Meus Jogos\VOX\Builds\DevBuild-4.5\VOX_Data\Managed\ProBuilderCore-Unity5.dll into Unity Child Domain
+Platform assembly: D:\Jogos\Meus Jogos\VOX\Builds\DevBuild-4.5\VOX_Data\Managed\ProBuilderMeshOps-Unity5.dll (this message is harmless)
+Loading D:\Jogos\Meus Jogos\VOX\Builds\DevBuild-4.5\VOX_Data\Managed\ProBuilderMeshOps-Unity5.dll into Unity Child Domain
+Platform assembly: D:\Jogos\Meus Jogos\VOX\Builds\DevBuild-4.5\VOX_Data\Managed\KdTreeLib.dll (this message is harmless)
+Loading D:\Jogos\Meus Jogos\VOX\Builds\DevBuild-4.5\VOX_Data\Managed\KdTreeLib.dll into Unity Child Domain
+Platform assembly: D:\Jogos\Meus Jogos\VOX\Builds\DevBuild-4.5\VOX_Data\Managed\pb_Stl.dll (this message is harmless)
+Loading D:\Jogos\Meus Jogos\VOX\Builds\DevBuild-4.5\VOX_Data\Managed\pb_Stl.dll into Unity Child Domain
+Platform assembly: D:\Jogos\Meus Jogos\VOX\Builds\DevBuild-4.5\VOX_Data\Managed\Poly2Tri.dll (this message is harmless)
+Loading D:\Jogos\Meus Jogos\VOX\Builds\DevBuild-4.5\VOX_Data\Managed\Poly2Tri.dll into Unity Child Domain
+Platform assembly: D:\Jogos\Meus Jogos\VOX\Builds\DevBuild-4.5\VOX_Data\Managed\TextMeshPro-1.0.55.53.0b10.dll (this message is harmless)
+Loading D:\Jogos\Meus Jogos\VOX\Builds\DevBuild-4.5\VOX_Data\Managed\TextMeshPro-1.0.55.53.0b10.dll into Unity Child Domain
+- Completed reload, in  0.534 seconds
+Platform assembly: D:\Jogos\Meus Jogos\VOX\Builds\DevBuild-4.5\VOX_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: D:\Jogos\Meus Jogos\VOX\Builds\DevBuild-4.5\VOX_Data\Managed\System.dll (this message is harmless)
+WARNING: Shader Unsupported: 'Hidden/Internal-DeferredShading' - Pass '' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/Internal-DeferredShading' - Setting to default shader.
+WARNING: Shader Unsupported: 'Hidden/Internal-DeferredReflections' - Pass '' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/Internal-DeferredReflections' - Setting to default shader.
+WARNING: Shader Unsupported: 'Hidden/CubeBlur' - Pass '' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/CubeCopy' - Pass '' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/CubeBlend' - Pass '' has no vertex shader
+desktop: 1440x900 60Hz; virtual: 1440x900 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.071262 ms
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.481232 ms
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3188.
+Total: 8.282983 ms (FindLiveObjects: 0.313895 ms CreateObjectMapping: 0.196135 ms MarkObjects: 7.647709 ms  DeleteObjects: 0.123667 ms)
+
+PUNVoice: connecting to region sa
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+WARNING: Shader Unsupported: 'Hidden/DLAA' - Pass '' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/DLAA' - Setting to default shader.
+WARNING: Shader Unsupported: 'Hidden/NFAA' - Pass '' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/NFAA' - Setting to default shader.
+WARNING: Shader Unsupported: 'Hidden/FXAA II' - Pass '' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/FXAA II' - Setting to default shader.
+WARNING: Shader Unsupported: 'Hidden/FXAA Preset 2' - Pass '' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/FXAA Preset 3' - Pass '' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/FXAA III (Console)' - Pass '' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/FXAA III (Console)' - Setting to default shader.
+WARNING: Shader Unsupported: 'Hidden/CameraMotionBlur' - Pass '' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/CameraMotionBlur' - Setting to default shader.
+WARNING: Shader Unsupported: 'Hidden/CameraMotionBlurDX11' - Pass '' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/CameraMotionBlurDX11' - Setting to default shader.
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Animation:INTERNAL_CALL_Stop (UnityEngine.Animation)
+  at UnityEngine.Animation.Stop () [0x00000] in <filename unknown>:0 
+  at GAMENAME.HudExample.StopCrosshairAnimation () [0x00000] in <filename unknown>:0 
+  at GAMENAME.Gun.StopReloading () [0x00000] in <filename unknown>:0 
+  at GAMENAME.Gun.OnDisable () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnloadTime: 13.134776 ms
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 3399.
+Total: 8.698097 ms (FindLiveObjects: 0.328861 ms CreateObjectMapping: 0.160295 ms MarkObjects: 8.075032 ms  DeleteObjects: 0.133120 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.892038 ms
+
+Unloading 562 unused Assets to reduce memory usage. Loaded Objects now: 1947.
+Total: 4.324039 ms (FindLiveObjects: 0.292234 ms CreateObjectMapping: 0.154387 ms MarkObjects: 3.488297 ms  DeleteObjects: 0.387544 ms)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.257157 ms
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 3396.
+Total: 7.958847 ms (FindLiveObjects: 0.234732 ms CreateObjectMapping: 0.158720 ms MarkObjects: 7.526010 ms  DeleteObjects: 0.037809 ms)
+
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 18bc -> priority: 1 
