@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{8BDB289A-C62B-27A0-2D11-C709B621BCA2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_3_5;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE;CROSS_PLATFORM_INPUT</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\EZ Camera Shake\Scripts\CameraShakeInstance.cs" />
+     <Compile Include="Assets\EZ Camera Shake\Scripts\CameraShakePresets.cs" />
+     <Compile Include="Assets\EZ Camera Shake\Scripts\CameraShaker.cs" />
+     <Compile Include="Assets\EZ Camera Shake\Scripts\Utilities\CameraUtilities.cs" />
+     <Compile Include="Assets\LightShadows.cs" />
+     <Compile Include="Assets\Loading\Loading.cs" />
+     <Compile Include="Assets\Loading\LoadingUI.cs" />
+     <Compile Include="Assets\OptionsLevels.cs" />
+     <Compile Include="Assets\PUNVoice\Scripts\PhotonVoiceHandler.cs" />
+     <Compile Include="Assets\PUNVoice\Scripts\PhotonVoiceNetwork.cs" />
+     <Compile Include="Assets\PUNVoice\Scripts\PhotonVoiceRecorder.cs" />
+     <Compile Include="Assets\PUNVoice\Scripts\PhotonVoiceRecorderShort.cs" />
+     <Compile Include="Assets\PUNVoice\Scripts\PhotonVoiceSettings.cs" />
+     <Compile Include="Assets\PUNVoice\Scripts\PhotonVoiceSpeaker.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\CustomTypes.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Enums.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Extensions.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\FriendInfo.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\GizmoType.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\LoadbalancingPeer.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonClasses.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonLagSimulationGui.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonPlayer.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonStatsGui.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonStreamQueue.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonView.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PingCloudRegions.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\RPC.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Room.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\RoomInfo.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\ServerSettings.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\SocketUdp.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\SocketWebTcp.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonAnimatorView.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonRigidbody2DView.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonRigidbodyView.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonTransformView.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonTransformViewPositionControl.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonTransformViewPositionModel.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonTransformViewRotationControl.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonTransformViewRotationModel.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonTransformViewScaleControl.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonTransformViewScaleModel.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\ConnectAndJoinRandom.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\CullArea.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\InRoomChat.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\InputToEvent.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\ManualPhotonViewAllocator.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\MoveByKeys.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\NetworkCullingHandler.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\OnClickDestroy.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\OnClickInstantiate.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\OnClickLoadSomething.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\OnJoinedInstantiate.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\OnStartDelete.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\PhotonPlayer\PlayerRoomIndexing.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\PickupItem.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\PickupItemSimple.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\PickupItemSyncer.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\PointedAtGameObjectInfo.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\PunPlayerScores.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\PunTeams.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\PunTurnManager.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\QuitOnEscapeOrBack.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\ShowStatusWhenConnecting.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\SmoothSyncMovement.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\SupportLogger.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\TimeKeeper.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\UI\ButtonInsideScrollList.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\UI\TextButtonTransition.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\UI\TextToggleIsOnTransition.cs" />
+     <Compile Include="Assets\ProCore\ProBuilder\API Examples\Icosphere FFT\Scripts\CameraControls.cs" />
+     <Compile Include="Assets\ProCore\ProBuilder\API Examples\Icosphere FFT\Scripts\IcoBumpin.cs" />
+     <Compile Include="Assets\ProCore\ProBuilder\API Examples\Misc\HueCube.cs" />
+     <Compile Include="Assets\ProCore\ProBuilder\API Examples\Procedural Mesh\ExtrudeRandomEdges.cs" />
+     <Compile Include="Assets\ProCore\ProBuilder\API Examples\Runtime Editing\RuntimeEdit.cs" />
+     <Compile Include="Assets\ProCore\ProBuilder\API Examples\Vertex Colors\HighlightNearestFace.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples\Scripts\Benchmark01.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples\Scripts\Benchmark01_UGUI.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples\Scripts\Benchmark02.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples\Scripts\Benchmark03.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples\Scripts\Benchmark04.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples\Scripts\CameraController.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples\Scripts\ChatController.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples\Scripts\EnvMapAnimator.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples\Scripts\ObjectSpin.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples\Scripts\ShaderPropAnimator.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples\Scripts\SimpleScript.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples\Scripts\SkewTextExample.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples\Scripts\TMP_ExampleScript_01.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples\Scripts\TMP_FrameRateCounter.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples\Scripts\TMP_TextEventCheck.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples\Scripts\TMP_TextEventHandler.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples\Scripts\TMP_TextInfoDebugTool.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples\Scripts\TMP_TextSelector_A.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples\Scripts\TMP_TextSelector_B.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples\Scripts\TMP_UiFrameRateCounter.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples\Scripts\TMPro_InstructionOverlay.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples\Scripts\TeleType.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples\Scripts\TextConsoleSimulator.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples\Scripts\TextMeshProFloatingText.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples\Scripts\TextMeshSpawner.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples\Scripts\VertexColorCycler.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples\Scripts\VertexJitter.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples\Scripts\VertexShakeA.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples\Scripts\VertexShakeB.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples\Scripts\VertexZoom.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples\Scripts\WarpTextExample.cs" />
+     <Compile Include="Assets\_Cirda\ImageEffects\BlackAndWhiteBlend.cs" />
+     <Compile Include="Assets\_Cirda\ImageEffects\FadeToColor.cs" />
+     <Compile Include="Assets\_Cirda\ImageEffects\GlitchEffect.cs" />
+     <Compile Include="Assets\_Cirda\ImageEffects\MultiplyToColor.cs" />
+     <Compile Include="Assets\_Cirda\ImageEffects\Pixelate.cs" />
+     <Compile Include="Assets\_Cirda\UnityImageEffects\Scripts\Antialiasing.cs" />
+     <Compile Include="Assets\_Cirda\UnityImageEffects\Scripts\Bloom.cs" />
+     <Compile Include="Assets\_Cirda\UnityImageEffects\Scripts\BloomAndFlares.cs" />
+     <Compile Include="Assets\_Cirda\UnityImageEffects\Scripts\BloomOptimized.cs" />
+     <Compile Include="Assets\_Cirda\UnityImageEffects\Scripts\Blur.cs" />
+     <Compile Include="Assets\_Cirda\UnityImageEffects\Scripts\BlurOptimized.cs" />
+     <Compile Include="Assets\_Cirda\UnityImageEffects\Scripts\CameraMotionBlur.cs" />
+     <Compile Include="Assets\_Cirda\UnityImageEffects\Scripts\ColorCorrectionCurves.cs" />
+     <Compile Include="Assets\_Cirda\UnityImageEffects\Scripts\ColorCorrectionLookup.cs" />
+     <Compile Include="Assets\_Cirda\UnityImageEffects\Scripts\ColorCorrectionRamp.cs" />
+     <Compile Include="Assets\_Cirda\UnityImageEffects\Scripts\ContrastEnhance.cs" />
+     <Compile Include="Assets\_Cirda\UnityImageEffects\Scripts\ContrastStretch.cs" />
+     <Compile Include="Assets\_Cirda\UnityImageEffects\Scripts\CreaseShading.cs" />
+     <Compile Include="Assets\_Cirda\UnityImageEffects\Scripts\DepthOfField.cs" />
+     <Compile Include="Assets\_Cirda\UnityImageEffects\Scripts\DepthOfFieldDeprecated.cs" />
+     <Compile Include="Assets\_Cirda\UnityImageEffects\Scripts\EdgeDetection.cs" />
+     <Compile Include="Assets\_Cirda\UnityImageEffects\Scripts\Fisheye.cs" />
+     <Compile Include="Assets\_Cirda\UnityImageEffects\Scripts\GlobalFog.cs" />
+     <Compile Include="Assets\_Cirda\UnityImageEffects\Scripts\Grayscale.cs" />
+     <Compile Include="Assets\_Cirda\UnityImageEffects\Scripts\ImageEffectBase.cs" />
+     <Compile Include="Assets\_Cirda\UnityImageEffects\Scripts\ImageEffects.cs" />
+     <Compile Include="Assets\_Cirda\UnityImageEffects\Scripts\MotionBlur.cs" />
+     <Compile Include="Assets\_Cirda\UnityImageEffects\Scripts\NoiseAndGrain.cs" />
+     <Compile Include="Assets\_Cirda\UnityImageEffects\Scripts\NoiseAndScratches.cs" />
+     <Compile Include="Assets\_Cirda\UnityImageEffects\Scripts\PostEffectsBase.cs" />
+     <Compile Include="Assets\_Cirda\UnityImageEffects\Scripts\PostEffectsHelper.cs" />
+     <Compile Include="Assets\_Cirda\UnityImageEffects\Scripts\Quads.cs" />
+     <Compile Include="Assets\_Cirda\UnityImageEffects\Scripts\ScreenOverlay.cs" />
+     <Compile Include="Assets\_Cirda\UnityImageEffects\Scripts\ScreenSpaceAmbientObscurance.cs" />
+     <Compile Include="Assets\_Cirda\UnityImageEffects\Scripts\ScreenSpaceAmbientOcclusion.cs" />
+     <Compile Include="Assets\_Cirda\UnityImageEffects\Scripts\SepiaTone.cs" />
+     <Compile Include="Assets\_Cirda\UnityImageEffects\Scripts\SunShafts.cs" />
+     <Compile Include="Assets\_Cirda\UnityImageEffects\Scripts\TiltShift.cs" />
+     <Compile Include="Assets\_Cirda\UnityImageEffects\Scripts\Tonemapping.cs" />
+     <Compile Include="Assets\_Cirda\UnityImageEffects\Scripts\Triangles.cs" />
+     <Compile Include="Assets\_Cirda\UnityImageEffects\Scripts\Twirl.cs" />
+     <Compile Include="Assets\_Cirda\UnityImageEffects\Scripts\VignetteAndChromaticAberration.cs" />
+     <Compile Include="Assets\_Cirda\UnityImageEffects\Scripts\Vortex.cs" />
+     <Compile Include="Assets\_Cirda\Utils\CameraRelativeScale.cs" />
+     <Compile Include="Assets\_Cirda\Utils\CanvasLookToCamera.cs" />
+     <Compile Include="Assets\_Cirda\Utils\ChangeScaleOnStart.cs" />
+     <Compile Include="Assets\_Cirda\Utils\IKChain.cs" />
+     <Compile Include="Assets\_Cirda\Utils\IKPos.cs" />
+     <Compile Include="Assets\_Cirda\Utils\LightFlicker.cs" />
+     <Compile Include="Assets\_Cirda\Utils\MirrorCamera.cs" />
+     <Compile Include="Assets\_Cirda\Utils\PhotonSingleton.cs" />
+     <Compile Include="Assets\_Cirda\Utils\RotateMe.cs" />
+     <Compile Include="Assets\_Cirda\Utils\SavingUtils.cs" />
+     <Compile Include="Assets\_Cirda\Utils\Shaker.cs" />
+     <Compile Include="Assets\_Cirda\Utils\Singleton.cs" />
+     <Compile Include="Assets\_Cirda\Utils\SplashScreen.cs" />
+     <Compile Include="Assets\_Cirda\Utils\TestNavMeshAgent.cs" />
+     <Compile Include="Assets\_Cirda\Utils\TestPunGUI.cs" />
+     <Compile Include="Assets\_Cirda\Utils\TestWeaponSwitch.cs" />
+     <Compile Include="Assets\_Cirda\Utils\UICircle.cs" />
+     <Compile Include="Assets\_MyAssets\Scripts\CharacterCustomization\CharacterCustomization.cs" />
+     <Compile Include="Assets\_MyAssets\Scripts\CharacterCustomization\CharacterCustomizationScene.cs" />
+     <Compile Include="Assets\_MyAssets\Scripts\CharacterCustomization\CustomizationOptions.cs" />
+     <Compile Include="Assets\_MyAssets\Scripts\ControllersAndManagers\GameController.cs" />
+     <Compile Include="Assets\_MyAssets\Scripts\ControllersAndManagers\GameValues.cs" />
+     <Compile Include="Assets\_MyAssets\Scripts\ControllersAndManagers\MapController.cs" />
+     <Compile Include="Assets\_MyAssets\Scripts\ControllersAndManagers\ServerController.cs" />
+     <Compile Include="Assets\_MyAssets\Scripts\ControllersAndManagers\Settings.cs" />
+     <Compile Include="Assets\_MyAssets\Scripts\Gamemodes\CTF\Flag.cs" />
+     <Compile Include="Assets\_MyAssets\Scripts\Gamemodes\CTF\FlagVisual.cs" />
+     <Compile Include="Assets\_MyAssets\Scripts\Guns\Custom\Grenade.cs" />
+     <Compile Include="Assets\_MyAssets\Scripts\Guns\Custom\Knife.cs" />
+     <Compile Include="Assets\_MyAssets\Scripts\Guns\Custom\WorldModelFlashbang.cs" />
+     <Compile Include="Assets\_MyAssets\Scripts\Guns\Custom\WorldModelHEGrenade.cs" />
+     <Compile Include="Assets\_MyAssets\Scripts\Guns\Gun.cs" />
+     <Compile Include="Assets\_MyAssets\Scripts\Guns\GunBase.cs" />
+     <Compile Include="Assets\_MyAssets\Scripts\Guns\GunInfo.cs" />
+     <Compile Include="Assets\_MyAssets\Scripts\Guns\MainGunsScript.cs" />
+     <Compile Include="Assets\_MyAssets\Scripts\Guns\WorldModelGun.cs" />
+     <Compile Include="Assets\_MyAssets\Scripts\HUD\AlwaysOnTopHUD.cs" />
+     <Compile Include="Assets\_MyAssets\Scripts\HUD\ChatMessage.cs" />
+     <Compile Include="Assets\_MyAssets\Scripts\HUD\ClassCreation.cs" />
+     <Compile Include="Assets\_MyAssets\Scripts\HUD\ClassItem.cs" />
+     <Compile Include="Assets\_MyAssets\Scripts\HUD\HudExample.cs" />
+     <Compile Include="Assets\_MyAssets\Scripts\HUD\KillfeedItem.cs" />
+     <Compile Include="Assets\_MyAssets\Scripts\HUD\MainMenu.cs" />
+     <Compile Include="Assets\_MyAssets\Scripts\HUD\OfflineHUD.cs" />
+     <Compile Include="Assets\_MyAssets\Scripts\HUD\OptionsWindow.cs" />
+     <Compile Include="Assets\_MyAssets\Scripts\HUD\Scoreboard.cs" />
+     <Compile Include="Assets\_MyAssets\Scripts\HUD\ScoreboardPlayer.cs" />
+     <Compile Include="Assets\_MyAssets\Scripts\HUD\ServerUI.cs" />
+     <Compile Include="Assets\_MyAssets\Scripts\HUD\SlidePanel.cs" />
+     <Compile Include="Assets\_MyAssets\Scripts\HUD\Tabs.cs" />
+     <Compile Include="Assets\_MyAssets\Scripts\Misc\CameraFov.cs" />
+     <Compile Include="Assets\_MyAssets\Scripts\Misc\CameraRectBorders.cs" />
+     <Compile Include="Assets\_MyAssets\Scripts\Misc\CameraUIRectBorders.cs" />
+     <Compile Include="Assets\_MyAssets\Scripts\Misc\DestroyOnStart.cs" />
+     <Compile Include="Assets\_MyAssets\Scripts\Misc\EmitParticlesAndDestroy.cs" />
+     <Compile Include="Assets\_MyAssets\Scripts\Misc\FollowOtherCameraFov.cs" />
+     <Compile Include="Assets\_MyAssets\Scripts\Misc\OnlyOnDate.cs" />
+     <Compile Include="Assets\_MyAssets\Scripts\Misc\OnlyOnGamemode.cs" />
+     <Compile Include="Assets\_MyAssets\Scripts\Misc\Spawnpoint.cs" />
+     <Compile Include="Assets\_MyAssets\Scripts\Misc\TestHelmet.cs" />
+     <Compile Include="Assets\_MyAssets\Scripts\Misc\TestVisualEffects.cs" />
+     <Compile Include="Assets\_MyAssets\Scripts\Multiplayer\InRoomRoundTimer.cs" />
+     <Compile Include="Assets\_MyAssets\Scripts\Multiplayer\MultiplayerUtils.cs" />
+     <Compile Include="Assets\_MyAssets\Scripts\PlayerScripts\Flashlight.cs" />
+     <Compile Include="Assets\_MyAssets\Scripts\PlayerScripts\Headbob.cs" />
+     <Compile Include="Assets\_MyAssets\Scripts\PlayerScripts\Nametag.cs" />
+     <Compile Include="Assets\_MyAssets\Scripts\PlayerScripts\Player.cs" />
+     <Compile Include="Assets\_MyAssets\Scripts\PlayerScripts\PlayerFix.cs" />
+     <Compile Include="Assets\_MyAssets\Scripts\PlayerScripts\PlayerItems.cs" />
+     <Compile Include="Assets\_MyAssets\Scripts\PlayerScripts\PlayerMouseLook.cs" />
+     <Compile Include="Assets\_MyAssets\Scripts\PlayerScripts\PlayerMovement.cs" />
+     <Compile Include="Assets\_MyAssets\Scripts\PlayerScripts\PlayerWorldModel.cs" />
+     <Compile Include="Assets\_MyAssets\Scripts\PlayerScripts\Ragdoll.cs" />
+     <Compile Include="Assets\_MyAssets\Scripts\PlayerScripts\ViewmodelSway.cs" />
+     <None Include="Assets\_Cirda\UnityImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+     <None Include="Assets\_Cirda\UnityImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
+     <None Include="Assets\ProCore\ProBuilder\Shader\pb_TransparentOverlay.shader" />
+     <None Include="Assets\ProCore\ProBuilder\API Examples\Icosphere FFT\README.txt" />
+     <None Include="Assets\_Cirda\UnityImageEffects\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
+     <None Include="Assets\_Cirda\UnityImageEffects\Shaders\ShowAlphaChannel.shader" />
+     <None Include="Assets\ProCore\ProBuilder\Shader\pb_SelectionPicker.shader" />
+     <None Include="Assets\ProCore\ProBuilder\About\changelog.txt" />
+     <None Include="Assets\ProCore\ProBuilder\Shader\DiffuseVertexColor.shader" />
+     <None Include="Assets\TextMesh Pro\Fonts\Anton OFL.txt" />
+     <None Include="Assets\_Cirda\UnityImageEffects\Shaders\SunShaftsComposite.shader" />
+     <None Include="Assets\_Cirda\UnityImageEffects\Shaders\ColorCorrectionCurves.shader" />
+     <None Include="Assets\_Cirda\UnityImageEffects\Shaders\ScreenSpaceAmbientObscurance.shader" />
+     <None Include="Assets\_Cirda\ImageEffects\Shaders\MultiplyToColor.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
+     <None Include="Assets\Photon Unity Networking\link.xml" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
+     <None Include="Assets\_Cirda\UnityImageEffects\Shaders\_Antialiasing\NFAA.shader" />
+     <None Include="Assets\_Cirda\UnityImageEffects\Shaders\ScreenSpaceRaytrace.cginc" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
+     <None Include="Assets\_Cirda\UnityImageEffects\Shaders\_DepthOfField\TiltShiftHdrLensBlur.shader" />
+     <None Include="Assets\_Cirda\UnityImageEffects\Shaders\_BloomAndFlares\VignetteShader.shader" />
+     <None Include="Assets\_Cirda\UnityImageEffects\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
+     <None Include="Assets\ProCore\ProBuilder\Shader\pb_FaceHighlight.shader" />
+     <None Include="Assets\_Cirda\UnityImageEffects\Shaders\MotionBlur.shader" />
+     <None Include="Assets\_Cirda\UnityImageEffects\Shaders\_BloomAndFlares\MobileBloom.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
+     <None Include="Assets\_Cirda\UnityImageEffects\Shaders\Contrast Stretch\MinMaxReduction.shader" />
+     <None Include="Assets\_Cirda\UnityImageEffects\Shaders\_Antialiasing\SSAA.shader" />
+     <None Include="Assets\_Cirda\UnityImageEffects\Shaders\RadialBlur.shader" />
+     <None Include="Assets\_Cirda\UnityImageEffects\Shaders\_DepthOfField\DepthOfFieldDX11.shader" />
+     <None Include="Assets\_Cirda\UnityImageEffects\Shaders\ContrastComposite.shader" />
+     <None Include="Assets\_Cirda\UnityImageEffects\Shaders\_Antialiasing\FXAAPreset3.shader" />
+     <None Include="Assets\Plugins\PhotonVoiceApi\readme.txt" />
+     <None Include="Assets\_Cirda\UnityImageEffects\Shaders\FisheyeShader.shader" />
+     <None Include="Assets\ProCore\ProBuilder\Shader\UnlitSolidColor.shader" />
+     <None Include="Assets\Plugins\Photon3Unity3D.xml" />
+     <None Include="Assets\_Cirda\UnityImageEffects\Shaders\Contrast Stretch\Apply.shader" />
+     <None Include="Assets\ProCore\ProBuilder\Shader\pb_ReferenceUnlit.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
+     <None Include="Assets\_Cirda\UnityImageEffects\Shaders\frag_ao.cginc" />
+     <None Include="Assets\Plugins\release_history.txt" />
+     <None Include="Assets\_Cirda\ImageEffects\Shaders\BlackAndWhiteBlend.shader" />
+     <None Include="Assets\ProCore\ProBuilder\Shader\DiffuseTextureBlend.shader" />
+     <None Include="Assets\ProCore\ProBuilder\Shader\pb_StandardVertexColor.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
+     <None Include="Assets\ProCore\ProBuilder\Shader\pb_VertexPicker.shader" />
+     <None Include="Assets\ProCore\ProBuilder\Shader\pb_HideVertices.shader" />
+     <None Include="Assets\_Cirda\UnityImageEffects\Shaders\_DepthOfField\DepthOfField34.shader" />
+     <None Include="Assets\_Cirda\ImageEffects\Shaders\FadeToColor.shader" />
+     <None Include="Assets\TextMesh Pro\Fonts\Oswald-Bold - OFL.txt" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
+     <None Include="Assets\_Cirda\UnityImageEffects\Shaders\_BloomAndFlares\MobileBlur.shader" />
+     <None Include="Assets\_Cirda\UnityImageEffects\Shaders\SSAOShader.shader" />
+     <None Include="Assets\_Cirda\UnityImageEffects\Shaders\ConvertDepth.shader" />
+     <None Include="Assets\ProCore\ProBuilder\About\ThirdPartyLicenses.txt" />
+     <None Include="Assets\_Cirda\UnityImageEffects\Shaders\ColorCorrectionCurvesSimple.shader" />
+     <None Include="Assets\_Cirda\UnityImageEffects\Shaders\NoiseEffectShaderYUV.shader" />
+     <None Include="Assets\_Cirda\ImageEffects\Shaders\DefaultEffectShader.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
+     <None Include="Assets\ProCore\ProBuilder\Shader\pb_UnlitVertexColor.shader" />
+     <None Include="Assets\ProCore\ProBuilder\Shader\pb_FacePicker.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
+     <None Include="Assets\_Cirda\UnityImageEffects\Shaders\CreaseApply.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
+     <None Include="Assets\_Cirda\UnityImageEffects\Shaders\ChromaticAberrationShader.shader" />
+     <None Include="Assets\_Cirda\UnityImageEffects\Shaders\GlobalFog.shader" />
+     <None Include="Assets\_Cirda\UnityImageEffects\Shaders\Contrast Stretch\Luminance.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+     <None Include="Assets\ProCore\ProBuilder\About\Font\SIL Open Font License.txt" />
+     <None Include="Assets\_Cirda\UnityImageEffects\Shaders\ColorCorrectionSelective.shader" />
+     <None Include="Assets\_Cirda\UnityImageEffects\Shaders\_DepthOfField\Bokeh34.shader" />
+     <None Include="Assets\_Cirda\UnityImageEffects\Shaders\CameraMotionBlurDX11.shader" />
+     <None Include="Assets\_Cirda\UnityImageEffects\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+     <None Include="Assets\_Cirda\UnityImageEffects\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
+     <None Include="Assets\_Cirda\UnityImageEffects\Shaders\BlurEffectConeTaps.shader" />
+     <None Include="Assets\_Cirda\UnityImageEffects\Shaders\CameraMotionBlur.shader" />
+     <None Include="Assets\ProCore\ProBuilder\About\pc_AboutEntry_ProBuilder.txt" />
+     <None Include="Assets\_Cirda\UnityImageEffects\Shaders\_Antialiasing\DLAA.shader" />
+     <None Include="Assets\TextMesh Pro\Fonts\Bangers - OFL.txt" />
+     <None Include="Assets\_Cirda\UnityImageEffects\Shaders\NoiseAndGrainDX11.shader" />
+     <None Include="Assets\_Cirda\UnityImageEffects\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
+     <None Include="Assets\ProCore\ProBuilder\Shader\pb_VertexShader.shader" />
+     <None Include="Assets\_Cirda\UnityImageEffects\Shaders\_DepthOfField\SeparableBlur.shader" />
+     <None Include="Assets\_Cirda\UnityImageEffects\Shaders\MotionBlurClear.shader" />
+     <None Include="Assets\_Cirda\UnityImageEffects\Shaders\ColorCorrectionEffect.shader" />
+     <None Include="Assets\_Cirda\UnityImageEffects\Shaders\GrayscaleEffect.shader" />
+     <None Include="Assets\_Cirda\UnityImageEffects\Shaders\SepiaToneEffect.shader" />
+     <None Include="Assets\_Cirda\UnityImageEffects\Shaders\TwirlEffect.shader" />
+     <None Include="Assets\_Cirda\UnityImageEffects\Shaders\VortexEffect.shader" />
+     <None Include="Assets\_Cirda\ImageEffects\Shaders\GlitchEffectShader.shader" />
+     <None Include="Assets\_Cirda\UnityImageEffects\Shaders\Contrast Stretch\Adaptation.shader" />
+     <None Include="Assets\_Cirda\UnityImageEffects\Shaders\NoiseAndGrain.shader" />
+     <None Include="Assets\_Cirda\UnityImageEffects\Shaders\VignettingShader.shader" />
+     <None Include="Assets\_Cirda\UnityImageEffects\Shaders\Tonemapper.shader" />
+     <None Include="Assets\_Cirda\UnityImageEffects\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+     <None Include="Assets\_Cirda\UnityImageEffects\Shaders\_Antialiasing\FXAA2.shader" />
+     <None Include="Assets\_Cirda\UnityImageEffects\Shaders\ColorCorrection3DLut.shader" />
+     <None Include="Assets\_Cirda\UnityImageEffects\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
+     <None Include="Assets\_Cirda\UnityImageEffects\Shaders\EdgeDetectNormals.shader" />
+     <None Include="Assets\_Cirda\UnityImageEffects\Shaders\PrepareSunShaftsBlur.shader" />
+     <None Include="Assets\ProCore\ProBuilder\Shader\pb_ScrollHighlight.shader" />
+     <None Include="Assets\_Cirda\UnityImageEffects\Shaders\_BloomAndFlares\Blend.shader" />
+     <None Include="Assets\_Cirda\UnityImageEffects\Shaders\BlendModesOverlay.shader" />
+     <None Include="Assets\ProCore\ProBuilder\readme.txt" />
+     <None Include="Assets\_Cirda\UnityImageEffects\Shaders\SimpleClear.shader" />
+     <None Include="Assets\_Cirda\UnityImageEffects\Shaders\_Antialiasing\FXAA3Console.shader" />
+     <None Include="Assets\_Cirda\UnityImageEffects\Shaders\_Antialiasing\FXAAPreset2.shader" />
+     <None Include="Assets\_Cirda\UnityImageEffects\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
+     <None Include="Assets\_Cirda\UnityImageEffects\Shaders\_BloomAndFlares\BlendForBloom.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="Photon3Unity3D">
+ <HintPath>D:/Jogos/Meus Jogos/VOX/Assets/Plugins/Photon3Unity3D.dll</HintPath>
+ </Reference>
+ <Reference Include="websocket-sharp">
+ <HintPath>D:/Jogos/Meus Jogos/VOX/Assets/Plugins/WebSocket/websocket-sharp.dll</HintPath>
+ </Reference>
+ <Reference Include="ProBuilderCore-Unity5">
+ <HintPath>D:/Jogos/Meus Jogos/VOX/Assets/ProCore/ProBuilder/Classes/ProBuilderCore-Unity5.dll</HintPath>
+ </Reference>
+ <Reference Include="ProBuilderMeshOps-Unity5">
+ <HintPath>D:/Jogos/Meus Jogos/VOX/Assets/ProCore/ProBuilder/Classes/ProBuilderMeshOps-Unity5.dll</HintPath>
+ </Reference>
+ <Reference Include="KdTreeLib">
+ <HintPath>D:/Jogos/Meus Jogos/VOX/Assets/ProCore/ProBuilder/Classes/ClassesLib/KdTreeLib.dll</HintPath>
+ </Reference>
+ <Reference Include="pb_Stl">
+ <HintPath>D:/Jogos/Meus Jogos/VOX/Assets/ProCore/ProBuilder/Classes/ClassesLib/pb_Stl.dll</HintPath>
+ </Reference>
+ <Reference Include="Poly2Tri">
+ <HintPath>D:/Jogos/Meus Jogos/VOX/Assets/ProCore/ProBuilder/Classes/ClassesLib/Poly2Tri.dll</HintPath>
+ </Reference>
+ <Reference Include="TextMeshPro-1.0.55.53.0b10">
+ <HintPath>D:/Jogos/Meus Jogos/VOX/Assets/TextMesh Pro/Plugins/TextMeshPro-1.0.55.53.0b10.dll</HintPath>
+ </Reference>
+ <Reference Include="TextMeshPro-1.0.55.53.0b10">
+ <HintPath>D:/Jogos/Meus Jogos/VOX/Assets/TextMesh Pro/Plugins/Runtime DLL/TextMeshPro-1.0.55.53.0b10.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{718D8388-9F1F-3699-069B-B3E4D929576C}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
